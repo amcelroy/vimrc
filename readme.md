@@ -21,7 +21,7 @@ directories are found or created, the init.vim file is copied to:
 Once NeoVIM is launched, Plugins should be automatically downloaded and ready 
 to use.
 
-```mermaid
+```mermaid 
 flowchart TB
 A(Start) --> B{Folders exist?}
 B -->|No| C(Create Folder)
@@ -29,6 +29,7 @@ B -->|Yes| D(Copy init.vim)
 C --> D
 D --> E(Open NVIM)
 E --> F(Auto-install plugins)
+F --> G(Finish)
 ```
 
 ## Features
