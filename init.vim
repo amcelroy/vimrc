@@ -14,6 +14,7 @@ set autoindent              " indent a new line the same amount as the line just
 set number                  " add line numbers
 set wildmode=longest,list   " get bash-like tab completions
 set cc=80                   " set an 80 column border for good coding style
+set guicursor=a:blinkon25   " Make the cursor blink
 filetype plugin indent on   " allows auto-indenting depending on file type
 syntax on                   " syntax highlighting
 setlocal spell spelllang=en_us
