@@ -42,5 +42,6 @@ F --> G(Finish)
     - Plugged plugin manager
     - JavaScript and TypeScript syntax highlighting
     - Nerd Tree (mapped to df)
-    - Markdown Preview (\<C-p>)
+    - Markdown Preview (<C-p>)
+    - Vim-Doge Doxygen comment generate (<C-d>)
 
