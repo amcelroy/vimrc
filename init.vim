@@ -37,6 +37,7 @@ Plug 'preservim/nerdtree'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'othree/html5.vim'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'kkoomen/vim-doge', { 'do': { -> doge#install() } }
 
 call plug#end()
 
@@ -46,3 +47,4 @@ let g:coc_global_extensions = [
 
 map df :NERDTreeToggle<CR>
 map <C-p> :MarkdownPreview<CR>
+map <C-d> :DogeGenerate<CR>
