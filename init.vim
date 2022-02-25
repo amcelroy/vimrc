@@ -48,3 +48,6 @@ let g:coc_global_extensions = [
 map df :NERDTreeToggle<CR>
 map <C-p> :MarkdownPreview<CR>
 map <C-d> :DogeGenerate<CR>
+
+highlight CocErrorFloat ctermfg=White
+
